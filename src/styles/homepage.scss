@@ -1,0 +1,60 @@
+.wrapper{
+  background-image: url('/assets/home/background-home-mobile.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  .homepage-container{
+    padding: 0 1.5rem;
+    padding-top: 3rem;
+    .homepage-content{
+      margin-bottom: 5.06rem;
+      h3{
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+      }
+      h1{
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+      }
+    }
+    .homepage-action{
+      button{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        cursor: pointer;
+        .explore-link{
+          text-decoration: none;
+          font-family: 'Bellefair';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+          text-align: center;
+          letter-spacing: 1.25px;
+          color: #0B0D17;
+
+        }
+      }
+    }
+  }
+}

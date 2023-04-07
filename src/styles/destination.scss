@@ -1,0 +1,119 @@
+.destination-container{
+  background-image: url('/assets/destination/background-destination-mobile.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  .destination-content{
+    padding: 0.8rem 0;
+    h3{
+      font-family: 'Barlow Condensed';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2.7px;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+      margin-bottom: 2rem;
+    }
+    .planet-container{
+      margin-bottom: 1rem;
+      img{
+        min-width: 10.62rem;
+        min-height: 10.62rem;
+        max-width: 10.62rem;
+        max-height: 10.62rem;
+      }
+    }
+    .destination-nav{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      a{
+        padding: 0.5rem;
+        text-decoration: none;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        color: #FFFFFF;
+      }
+    }
+    .planet-info-container{
+      margin-top:1rem;
+      .planet-name{
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      .planet-description{
+        padding: 0 1.5rem;
+        margin-bottom: 1rem;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+      }
+      hr{
+        width:80%;
+        border:1px solid #383B4B;
+      }
+      .avg-distance{
+        h4{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          letter-spacing: 2.3625px;
+          text-transform: uppercase;
+          color: #D0D6F9;
+          margin-bottom: 0.5rem;
+        }
+        h1{
+          font-family: 'Bellefair';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 32px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+      }
+      .est-time{
+        h4{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          letter-spacing: 2.3625px;
+          text-transform: uppercase;
+          color: #D0D6F9;
+          margin:0.5rem 0;
+          margin-top:1rem;
+        }
+        h1{
+          font-family: 'Bellefair';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 32px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
