@@ -1,7 +1,7 @@
 import "../styles/Header.scss";
 
-import hamIcon from "../../public/assets/shared/icon-hamburger.svg";
-import Logo from "../../public/assets/shared/logo.svg";
+import hamIcon from "../assets/shared/icon-hamburger.svg";
+import Logo from "../assets/shared/logo.svg";
 
 const Header = () => {
   return (
