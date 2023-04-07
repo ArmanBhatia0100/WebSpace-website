@@ -1,17 +1,14 @@
 import "../styles/Header.scss";
 
-import hamIcon from "../assets/shared/icon-hamburger.svg";
-import Logo from "../assets/shared/logo.svg";
-
 const Header = () => {
   return (
     <div className="header-container">
       <div className="logo-container">
-        <img src={Logo} alt="logo" />
+        <img src="/assets/shared/logo.svg" alt="logo" />
       </div>
       <nav>
         <div className="hamburger-menu">
-          <img src={hamIcon} alt="" />
+          <img src="/assets/shared/icon-hamburger.svg" alt="hamburger" />
         </div>
         <div className="menu-item">
           <div>Home</div>
